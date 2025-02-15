@@ -607,6 +607,9 @@ MonoBehaviour:
   OnSpacePressed:
     m_PersistentCalls:
       m_Calls: []
+  OnResetPressed:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!4 &299072299
 Transform:
   m_ObjectHideFlags: 0
@@ -635,6 +638,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   score: 0
+  ball: {fileID: 171658243}
+  pinCollection: {fileID: 1861571840}
+  pinAnchor: {fileID: 1747560533}
+  inputManager: {fileID: 299072298}
+  scoreText: {fileID: 1879472176}
 --- !u!1 &330585543
 GameObject:
   m_ObjectHideFlags: 0
@@ -1463,6 +1471,16 @@ Transform:
   m_Children: []
   m_Father: {fileID: 2105609286}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &1747560533 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 320729890028180723, guid: 3dec830b1b3346745855327b10d9a4a2, type: 3}
+  m_PrefabInstance: {fileID: 3290813440940366939}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1861571840 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7793257070779957612, guid: 3dec830b1b3346745855327b10d9a4a2, type: 3}
+  m_PrefabInstance: {fileID: 3290813440940366939}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1879472174
 GameObject:
   m_ObjectHideFlags: 0
